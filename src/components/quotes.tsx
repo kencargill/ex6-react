@@ -14,12 +14,12 @@ export default function Quotes () {
     }
         
           return (
-            <div className="App">
+              <div>
                 {quotes.map(quote => (
-                    <div>
+                    <ul>
                     <li>{quote.text}</li>
                     <li>{quote.author}</li>
-                    </div>
+                    </ul>
                 ))}
-            </div>
+              </div>
 )}
